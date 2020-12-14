@@ -1,0 +1,63 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+.one{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two{
+    display:flex;
+    flex-direction: row;
+}
+
+#first-edhub{
+    display: flex;
+    margin-left:auto;
+}
+
+.three{
+    display: flex
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 3;
+}
+
+li{
+    display:flex;
+    justify-content: space-around;
+}
+
+#second-edhub{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow:3;
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.five{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.five article{
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}

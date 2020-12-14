@@ -1,0 +1,82 @@
+/* --------- VERANDER NIETS IN DIT BESTAND ----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    color: hsl(110, 29%, 52%);
+}
+
+article {
+    border-bottom: 1px dotted hsl(4, 0%, 82%);
+}
+
+footer {
+    border-top: 1px dotted hsl(4, 0%, 82%);
+    margin: 32px 0;
+    padding: 32px 0;
+}
+
+main > div {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe,
+.places-to-visit {
+    width: 350px;
+}
+
+#first-image{
+    width: 100%;
+}
+
+.copyright{
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color:hsl(359, 79%, 56%);
+}
+
+a:hover{
+    color:hsl(110, 29%, 52%);
+}
+
+main a:visited{
+    color:hsl(110, 29%, 52%);
+}
+
+main a:hover{
+    color:hsl(52, 42%, 58%);
+}
+
+input[type=submit]{
+    background-color:hsl(52, 42%, 58%);
+}
+
+input[type=text]:focus{
+    border-color:hsl(226, 56%, 48%);
+}
+
+h1, h2, h3{
+    font-family: "Bree Serif", serif;
+}
